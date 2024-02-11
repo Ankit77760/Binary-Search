@@ -2,7 +2,7 @@
 using namespace std;
 
 int missingElement(vector<int>&arr,int n,int k){
-    for(int i=;i<n;i++){
+    for(int i=1;i<n;i++){
         if(arr[i]<=k){
             k++;
         }
